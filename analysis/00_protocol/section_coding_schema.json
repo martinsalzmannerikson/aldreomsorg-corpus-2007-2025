@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Section Coding Schema",
+  "description": "Schema for AI-assisted preliminary coding of one curated section. Human adjudication is required before any final scientific interpretation.",
+  "type": "object",
+  "required": [
+    "curated_section_id",
+    "year",
+    "title",
+    "theme_from_dataset",
+    "coding_metadata",
+    "care_science_codes",
+    "actor_positioning",
+    "problem_representations",
+    "evidence_quotes",
+    "analytic_memo"
+  ],
+  "properties": {
+    "curated_section_id": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "theme_from_dataset": {
+      "type": "string"
+    },
+    "source_text_path": {
+      "type": "string"
+    },
+    "coding_metadata": {
+      "type": "object",
+      "required": [
+        "prompt_version",
+        "model",
+        "coding_date",
+        "coder_role",
+        "human_review_status"
+      ],
+      "properties": {
+        "prompt_version": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "coding_date": {
+          "type": "string"
+        },
+        "coder_role": {
+          "type": "string"
+        },
+        "human_review_status": {
+          "type": "string",
+          "enum": [
+            "not_reviewed",
+            "reviewed_minor_changes",
+            "reviewed_major_changes",
+            "rejected",
+            "adjudicated"
+          ]
+        }
+      }
+    },
+    "descriptive_summary": {
+      "type": "object",
+      "properties": {
+        "one_sentence_summary": {
+          "type": "string"
+        },
+        "main_topic": {
+          "type": "string"
+        },
+        "period_relevance": {
+          "type": "string"
+        }
+      }
+    },
+    "care_science_codes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "salience",
+          "justification",
+          "textual_basis",
+          "uncertainty"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "salience": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "justification": {
+            "type": "string"
+          },
+          "textual_basis": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    },
+    "actor_positioning": {
+      "type": "object",
+      "required": [
+        "older_person",
+        "relatives",
+        "staff",
+        "municipality_region_state",
+        "technology_or_data"
+      ],
+      "properties": {
+        "older_person": {
+          "$ref": "#/$defs/actor"
+        },
+        "relatives": {
+          "$ref": "#/$defs/actor"
+        },
+        "staff": {
+          "$ref": "#/$defs/actor"
+        },
+        "municipality_region_state": {
+          "$ref": "#/$defs/actor"
+        },
+        "technology_or_data": {
+          "$ref": "#/$defs/actor"
+        }
+      }
+    },
+    "problem_representations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "problem",
+          "how_constructed",
+          "implied_cause",
+          "implied_solution",
+          "uncertainty"
+        ],
+        "properties": {
+          "problem": {
+            "type": "string"
+          },
+          "how_constructed": {
+            "type": "string"
+          },
+          "implied_cause": {
+            "type": "string"
+          },
+          "implied_solution": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    },
+    "quality_logics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "logic": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "dominant_or_secondary": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence_quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "quote",
+          "why_relevant",
+          "page_reference",
+          "quote_verification_status"
+        ],
+        "properties": {
+          "quote": {
+            "type": "string"
+          },
+          "why_relevant": {
+            "type": "string"
+          },
+          "page_reference": {
+            "type": "string"
+          },
+          "quote_verification_status": {
+            "type": "string",
+            "enum": [
+              "candidate_unverified",
+              "verified_against_section_text",
+              "verified_against_pdf",
+              "rejected"
+            ]
+          }
+        }
+      }
+    },
+    "negative_cases_or_absences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "expected_but_absent": {
+            "type": "string"
+          },
+          "why_it_matters": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    },
+    "analytic_memo": {
+      "type": "object",
+      "required": [
+        "interpretive_note",
+        "possible_period_shift",
+        "questions_for_human_review"
+      ],
+      "properties": {
+        "interpretive_note": {
+          "type": "string"
+        },
+        "possible_period_shift": {
+          "type": "string"
+        },
+        "questions_for_human_review": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "quality_flags": {
+      "type": "object",
+      "properties": {
+        "needs_human_check": {
+          "type": "boolean"
+        },
+        "possible_overinterpretation": {
+          "type": "boolean"
+        },
+        "citation_needs_verification": {
+          "type": "boolean"
+        },
+        "data_extraction_concern": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "actor": {
+      "type": "object",
+      "required": [
+        "position",
+        "agency",
+        "visibility",
+        "comment"
+      ],
+      "properties": {
+        "position": {
+          "type": "string"
+        },
+        "agency": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "comment": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
