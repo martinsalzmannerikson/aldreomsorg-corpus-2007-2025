@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Vard och omsorg for aldre: corpus 2007-2025"
+message: "If you use this curated corpus, please cite the dataset and the original source reports."
+type: dataset
+authors:
+  - family-names: "Salzmann-Erikson"
+    given-names: "Martin"
+repository-code: "https://github.com/martinsalzmannerikson/aldreomsorg-corpus-2007-2025"
+date-released: 2026-05-21
+keywords:
+  - older adults
+  - elder care
+  - Sweden
+  - document analysis
+  - Socialstyrelsen
+  - corpus
+license: "NOASSERTION"
+

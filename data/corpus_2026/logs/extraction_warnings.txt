@@ -1,0 +1,3 @@
+2010-12-1.pdf: weak heading extraction; added 10-page fallback anchors
+2011-12-5.pdf: weak heading extraction; added 10-page fallback anchors
+2012-1-5.pdf: weak heading extraction; added 10-page fallback anchors
