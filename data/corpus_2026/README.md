@@ -1,8 +1,8 @@
 # Corpus 2026: Vard och omsorg for aldre 2007-2025
 
 Created: 2026-05-21T12:46:34
-Source root: D:\Data
-Corpus root: D:\Data\2026
+Source root: source (external original PDFs, not included)
+Corpus root: source/2026
 Extraction method: 2026-02-multilevel-toc-plus-heading-search
 
 ## Proposed corpus structure
@@ -34,7 +34,7 @@ Levels:
 
 ## Recommended use
 
-Use metadata/sections.csv as the primary sampling and coding table. Use pages_jsonl for source checking. Use chunks.jsonl for semantic search, summarization and LLM-assisted coding. Keep the original PDFs in D:\Data as the audit trail.
+Use metadata/sections.csv as the primary sampling and coding table. Use pages_jsonl for source checking. Use chunks.jsonl for semantic search, summarization and LLM-assisted coding. Keep the original PDFs in source as the audit trail.
 
 ## Important caveat
 

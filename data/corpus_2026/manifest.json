@@ -1,7 +1,7 @@
 {
   "created_at": "2026-05-21T12:46:34",
-  "source_root": "D:\\Data",
-  "corpus_root": "D:\\Data\\2026",
+  "source_root": "source",
+  "corpus_root": "data/corpus_2026",
   "extraction_method_version": "2026-02-multilevel-toc-plus-heading-search",
   "design": {
     "levels": [
@@ -20,7 +20,7 @@
       "year": 2007,
       "report_type": "oppna_jamforelser",
       "title_guess": "Öppna jämförelser 2007 Äldreomsorg Öppna jämförelser 2007 Äldreomsorg",
-      "source_file": "D:\\Data\\2007.pdf",
+      "source_file": "source/2007.pdf",
       "sha256": "b66e6f57769c5d23120d193d5cea88fa12a3eed43c386af5f8e7272f6d658819",
       "pdf_pages": 156,
       "word_count": 42621,
@@ -29,15 +29,15 @@
       "headings_used": 42,
       "sections": 25,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2007_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2007_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2007_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2007_pages.jsonl"
     },
     {
       "report_id": "R2008",
       "year": 2008,
       "report_type": "oppna_jamforelser",
       "title_guess": "Öppna jämförelser 2008 Vård och omsorg om äldre 2008 Vård och omsorg om äldre",
-      "source_file": "D:\\Data\\2008.pdf",
+      "source_file": "source/2008.pdf",
       "sha256": "6c766fadc1989dd5bfc57ba0ae8b650d90cdf84ba27ae55be9044a64ee361695",
       "pdf_pages": 156,
       "word_count": 73114,
@@ -46,15 +46,15 @@
       "headings_used": 93,
       "sections": 42,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2008_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2008_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2008_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2008_pages.jsonl"
     },
     {
       "report_id": "R2009",
       "year": 2009,
       "report_type": "oppna_jamforelser",
       "title_guess": "Öppna jämförelser 2009 Vård och omsorg om äldre 118 8 2 Stockholm, Besök Hornsgatan 20 Tfn 08-452 70 00, Fax 08- 452 70 50 info@skl.se, www.skl.se Rapporten beställs på www.skl.se/",
-      "source_file": "D:\\Data\\2009.pdf",
+      "source_file": "source/2009.pdf",
       "sha256": "abf59ee760134043eec068be0b2113de9645385fa1d45f280a07050ee9359c9a",
       "pdf_pages": 166,
       "word_count": 89158,
@@ -63,15 +63,15 @@
       "headings_used": 105,
       "sections": 45,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2009_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2009_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2009_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2009_pages.jsonl"
     },
     {
       "report_id": "R2010",
       "year": 2010,
       "report_type": "oppna_jamforelser",
       "title_guess": "ÖPPNA JÄMFÖRELSER 2010 Vård och omsorg om äldre I rapporten Öppna jämförelser publicerar Socialstyrelsen och Sveriges Kom- muner och Landsting jämförelser av vården och omsorgen om",
-      "source_file": "D:\\Data\\2010-12-1.pdf",
+      "source_file": "source/2010-12-1.pdf",
       "sha256": "ec6dd2caead5ac361f4c771f11bc823528e4330e639dccb87007ba7a3824f77d",
       "pdf_pages": 150,
       "word_count": 84583,
@@ -80,15 +80,15 @@
       "headings_used": 57,
       "sections": 20,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2010_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2010_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2010_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2010_pages.jsonl"
     },
     {
       "report_id": "R2011",
       "year": 2011,
       "report_type": "oppna_jamforelser",
       "title_guess": "Sveriges Kommuner och Landsting Post: 118 82 Stockholm Telefon: 08-452 70 00 www.skl.se Socialstyrelsen Post: 106 30 Stockholm Telefon: 075-247 30 00 www.socialstyrelsen.se Beställ",
-      "source_file": "D:\\Data\\2011-12-5.pdf",
+      "source_file": "source/2011-12-5.pdf",
       "sha256": "a8555942dd0118d9d170273ce0db151fe58839c4d573375220117b01dfcd7553",
       "pdf_pages": 168,
       "word_count": 104173,
@@ -97,15 +97,15 @@
       "headings_used": 42,
       "sections": 21,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2011_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2011_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2011_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2011_pages.jsonl"
     },
     {
       "report_id": "R2012",
       "year": 2012,
       "report_type": "oppna_jamforelser",
       "title_guess": "Sveriges Kommuner och Landsting Post: 118 82 Stockholm Telefon: 08-452 70 00 www.skl.se Socialstyrelsen Post: 106 30 Stockholm Telefon: 075-247 30 00 www.socialstyrelsen.se Beställ",
-      "source_file": "D:\\Data\\2012-1-5.pdf",
+      "source_file": "source/2012-1-5.pdf",
       "sha256": "319ae9434c78201e61d9ad5a3b28d9b2fea30bf1dd2f9a85dbb0d2370f357111",
       "pdf_pages": 160,
       "word_count": 63825,
@@ -114,15 +114,15 @@
       "headings_used": 40,
       "sections": 20,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2012_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2012_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2012_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2012_pages.jsonl"
     },
     {
       "report_id": "R2013",
       "year": 2013,
       "report_type": "oppna_jamforelser",
       "title_guess": "Vård och omsorg om äldre jämförelser mellan kommuner och län öppna jämförelser 2013",
-      "source_file": "D:\\Data\\2013-1-3.pdf",
+      "source_file": "source/2013-1-3.pdf",
       "sha256": "350e25ca0168314db4973e87f861d5d79cbc074ef47c75ffbeb39c50a7377881",
       "pdf_pages": 136,
       "word_count": 65352,
@@ -131,15 +131,15 @@
       "headings_used": 126,
       "sections": 41,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2013_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2013_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2013_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2013_pages.jsonl"
     },
     {
       "report_id": "R2014",
       "year": 2014,
       "report_type": "oppna_jamforelser",
       "title_guess": "öppna jämförelser 2014 Vård och omsorg om äldre jämförelser mellan kommuner och län",
-      "source_file": "D:\\Data\\2014-1-4.pdf",
+      "source_file": "source/2014-1-4.pdf",
       "sha256": "ed4e4df6a61064c86128c474598f53a782b3eef9902b1abe7abe7b94ab224e5f",
       "pdf_pages": 154,
       "word_count": 78897,
@@ -148,15 +148,15 @@
       "headings_used": 64,
       "sections": 9,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2014_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2014_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2014_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2014_pages.jsonl"
     },
     {
       "report_id": "R2015",
       "year": 2015,
       "report_type": "oppna_jamforelser",
       "title_guess": "Vård och omsorg om äldre jämförelser mellan kommuner och län öppna jämförelser 2015",
-      "source_file": "D:\\Data\\2015-3-1.pdf",
+      "source_file": "source/2015-3-1.pdf",
       "sha256": "f4344148ec8de4063d910955cb1aeab4cff78e36e4d70387ceddafa1fe2202b1",
       "pdf_pages": 166,
       "word_count": 69561,
@@ -165,15 +165,15 @@
       "headings_used": 95,
       "sections": 18,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2015_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2015_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2015_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2015_pages.jsonl"
     },
     {
       "report_id": "R2016",
       "year": 2016,
       "report_type": "lagesrapport",
       "title_guess": "Lägesrapport 2016 Vård och omsorg om äldre Vård och omsorg om äldre – Lägesrapport 2016 (artikelnr 2016-2-29) kan beställas från Socialstyrelsens publikationsservice www.socialstyr",
-      "source_file": "D:\\Data\\2016-2-29.pdf",
+      "source_file": "source/2016-2-29.pdf",
       "sha256": "bedac70b73d797afd7f93d2c3e3673a218c35c2b705f19e9a19a30439fc46df6",
       "pdf_pages": 60,
       "word_count": 16337,
@@ -182,15 +182,15 @@
       "headings_used": 81,
       "sections": 35,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2016_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2016_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2016_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2016_pages.jsonl"
     },
     {
       "report_id": "R2017",
       "year": 2017,
       "report_type": "lagesrapport",
       "title_guess": "Vård och omsorg om äldre Lägesrapport 2017",
-      "source_file": "D:\\Data\\2017-2-2.pdf",
+      "source_file": "source/2017-2-2.pdf",
       "sha256": "4479021c641ba8d8e25c99157a6a81fa62208363bd343a7be4795d0c21b3c64e",
       "pdf_pages": 73,
       "word_count": 24963,
@@ -199,15 +199,15 @@
       "headings_used": 125,
       "sections": 50,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2017_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2017_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2017_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2017_pages.jsonl"
     },
     {
       "report_id": "R2018",
       "year": 2018,
       "report_type": "lagesrapport",
       "title_guess": "Lägesrapport 2018 Vård och omsorg om äldre Vård och omsorg om äldre – Lägesrapport 2018 (artikelnr 2018-2-7) kan beställas från Socialstyrelsens publikationsservice www.socialstyre",
-      "source_file": "D:\\Data\\2018-2-7.pdf",
+      "source_file": "source/2018-2-7.pdf",
       "sha256": "638f07f11ea3b56c9e09f17dd74b3d783b31b25d9e279bc60cf3e7523e1420d1",
       "pdf_pages": 98,
       "word_count": 32327,
@@ -216,15 +216,15 @@
       "headings_used": 128,
       "sections": 56,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2018_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2018_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2018_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2018_pages.jsonl"
     },
     {
       "report_id": "R2019",
       "year": 2019,
       "report_type": "lagesrapport",
       "title_guess": "2019-3-18",
-      "source_file": "D:\\Data\\2019-3-18.pdf",
+      "source_file": "source/2019-3-18.pdf",
       "sha256": "400abc8d1c36ccd2440f9c6e77248a1d5b261e4c001aa50af96cea2518640a26",
       "pdf_pages": 116,
       "word_count": 38559,
@@ -233,15 +233,15 @@
       "headings_used": 101,
       "sections": 46,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2019_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2019_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2019_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2019_pages.jsonl"
     },
     {
       "report_id": "R2020",
       "year": 2020,
       "report_type": "lagesrapport",
       "title_guess": "Lägesrapport 2020 Vård och omsorg om äldre Vård och omsorg om äldre – Lägesrapport 2020 (artikelnr 2020-3-6603) kan beställas från Socialstyrelsens publikationsservice www.socialst",
-      "source_file": "D:\\Data\\2020-3-6603.pdf",
+      "source_file": "source/2020-3-6603.pdf",
       "sha256": "0dc7e4c34cea19321cfb5f5d7ad26a9def1712f8dbcf67265ab411a1fba2453f",
       "pdf_pages": 126,
       "word_count": 43256,
@@ -250,15 +250,15 @@
       "headings_used": 97,
       "sections": 42,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2020_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2020_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2020_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2020_pages.jsonl"
     },
     {
       "report_id": "R2021",
       "year": 2021,
       "report_type": "lagesrapport",
       "title_guess": "Vård och omsorg för äldre – Lägesrapport 2021 Lägesrapport 2021 Vård och omsorg för äldre Vård och omsorg för äldre – Lägesrapport 2021 (artikelnr 2021-3-7249) kan beställas från S",
-      "source_file": "D:\\Data\\2021-3-7249.pdf",
+      "source_file": "source/2021-3-7249.pdf",
       "sha256": "327423754f2e57a6e974903f19655e08b0f6cde32a0f1bcaa770d4754d1fc7ec",
       "pdf_pages": 130,
       "word_count": 44597,
@@ -267,15 +267,15 @@
       "headings_used": 108,
       "sections": 45,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2021_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2021_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2021_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2021_pages.jsonl"
     },
     {
       "report_id": "R2022",
       "year": 2022,
       "report_type": "lagesrapport",
       "title_guess": "Vård och omsorg för äldre Lägesrapport 2022",
-      "source_file": "D:\\Data\\2022-3-7791.pdf",
+      "source_file": "source/2022-3-7791.pdf",
       "sha256": "390faf7e27304e023f27b5e58228b596cd0fe2ece37aa21f4208e733f0a38938",
       "pdf_pages": 138,
       "word_count": 47709,
@@ -284,15 +284,15 @@
       "headings_used": 95,
       "sections": 43,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2022_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2022_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2022_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2022_pages.jsonl"
     },
     {
       "report_id": "R2023",
       "year": 2023,
       "report_type": "lagesrapport",
       "title_guess": "Lägesrapport 2023 Vård och omsorg för äldre",
-      "source_file": "D:\\Data\\2023-3-8444.pdf",
+      "source_file": "source/2023-3-8444.pdf",
       "sha256": "47dd4a42ecbd71280412e3eed1fffaaaf56267011f4bd831eb09024fd42c3ad7",
       "pdf_pages": 136,
       "word_count": 46267,
@@ -301,15 +301,15 @@
       "headings_used": 110,
       "sections": 45,
       "page_offset_from_printed_to_pdf": 2,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2023_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2023_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2023_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2023_pages.jsonl"
     },
     {
       "report_id": "R2024",
       "year": 2024,
       "report_type": "lagesrapport",
       "title_guess": "Vård och omsorg för äldre Lägesrapport 2024",
-      "source_file": "D:\\Data\\2024-3-8991.pdf",
+      "source_file": "source/2024-3-8991.pdf",
       "sha256": "77f8849a6f9b236752aac0319c18a2ca0d5c9801839c6599075243d30e0909dc",
       "pdf_pages": 130,
       "word_count": 35866,
@@ -318,15 +318,15 @@
       "headings_used": 80,
       "sections": 39,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2024_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2024_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2024_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2024_pages.jsonl"
     },
     {
       "report_id": "R2025",
       "year": 2025,
       "report_type": "lagesrapport",
       "title_guess": "Vård och omsorg för äldre Lägesrapport 2025",
-      "source_file": "D:\\Data\\2025-3-9487.pdf",
+      "source_file": "source/2025-3-9487.pdf",
       "sha256": "07f219d0d954cceeca9afd69efa10b3e69f314ecdc8ffa6b4c831bc2b0e15746",
       "pdf_pages": 166,
       "word_count": 44912,
@@ -335,8 +335,8 @@
       "headings_used": 117,
       "sections": 84,
       "page_offset_from_printed_to_pdf": 0,
-      "fulltext_path": "D:\\Data\\2026\\texts\\reports\\2025_fulltext.txt",
-      "pages_jsonl_path": "D:\\Data\\2026\\texts\\pages_jsonl\\2025_pages.jsonl"
+      "fulltext_path": "data/corpus_2026/texts/reports/2025_fulltext.txt",
+      "pages_jsonl_path": "data/corpus_2026/texts/pages_jsonl/2025_pages.jsonl"
     }
   ],
   "counts": {
@@ -349,18 +349,18 @@
     "legacy_split_files_indexed": 96
   },
   "key_files": {
-    "reports_csv": "D:\\Data\\2026\\metadata\\reports.csv",
-    "pages_csv": "D:\\Data\\2026\\metadata\\pages.csv",
-    "headings_csv": "D:\\Data\\2026\\metadata\\headings.csv",
-    "sections_csv": "D:\\Data\\2026\\metadata\\sections.csv",
-    "chunks_csv": "D:\\Data\\2026\\metadata\\chunks.csv",
-    "chunks_jsonl": "D:\\Data\\2026\\texts\\chunks_jsonl\\chunks.jsonl",
-    "theme_summary_csv": "D:\\Data\\2026\\metadata\\theme_summary.csv",
-    "legacy_data_split_csv": "D:\\Data\\2026\\metadata\\legacy_data_split.csv",
-    "curated_sections_csv": "D:\\Data\\2026\\metadata\\curated_sections.csv",
-    "curated_chunks_csv": "D:\\Data\\2026\\metadata\\curated_chunks.csv",
-    "curated_chunks_jsonl": "D:\\Data\\2026\\texts\\curated_chunks_jsonl\\curated_chunks.jsonl",
-    "curated_theme_summary_csv": "D:\\Data\\2026\\metadata\\curated_theme_summary.csv"
+    "reports_csv": "data/corpus_2026/metadata/reports.csv",
+    "pages_csv": "data/corpus_2026/metadata/pages.csv",
+    "headings_csv": "data/corpus_2026/metadata/headings.csv",
+    "sections_csv": "data/corpus_2026/metadata/sections.csv",
+    "chunks_csv": "data/corpus_2026/metadata/chunks.csv",
+    "chunks_jsonl": "data/corpus_2026/texts/chunks_jsonl/chunks.jsonl",
+    "theme_summary_csv": "data/corpus_2026/metadata/theme_summary.csv",
+    "legacy_data_split_csv": "data/corpus_2026/metadata/legacy_data_split.csv",
+    "curated_sections_csv": "data/corpus_2026/metadata/curated_sections.csv",
+    "curated_chunks_csv": "data/corpus_2026/metadata/curated_chunks.csv",
+    "curated_chunks_jsonl": "data/corpus_2026/texts/curated_chunks_jsonl/curated_chunks.jsonl",
+    "curated_theme_summary_csv": "data/corpus_2026/metadata/curated_theme_summary.csv"
   },
   "curated_layer": {
     "created_at": "2026-05-21T13:07:59",
